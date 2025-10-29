@@ -9,9 +9,10 @@ INSERT INTO obiekty (nazwa, geom) VALUES (
                 (10 2, 10 6)
             ),
             COMPOUNDCURVE(
-                CIRCULARSTRING(11 2, 12 2, 13 2),
+                CIRCULARSTRING(11 2, 12 3, 13 2),
                 CIRCULARSTRING(13 2, 12 1, 11 2)
             )
         )'
     )
 );
+
